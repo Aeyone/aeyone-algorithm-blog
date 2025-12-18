@@ -1,3 +1,4 @@
+//用于处理区间最长连续递增子区间
 struct Info{
     int mx = 0, pre = 0, suf = 0, pmx = 0, smn = 1e9, siz = 0;
 };

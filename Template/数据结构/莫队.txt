@@ -1,5 +1,4 @@
-// #pragma GCC optimize (3)
-// #pragma GCC optimize ("Ofast")
+// CF1000F
 #include <bits/stdc++.h>
 using namespace std;
 
