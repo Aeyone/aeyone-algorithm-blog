@@ -8,24 +8,21 @@ on:
       - "Template/**"
       - "scripts/**"
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
       - name: Make scripts executable
-        run: |
-          chmod +x scripts/gen_template_readme.sh
-          chmod +x scripts/update_readme.sh
+        run: chmod +x scripts/*.sh
 
       - name: Update README
-        run: |
-          ./scripts/update_readme.sh
+        run: ./scripts/update_readme.sh
 
       - name: Commit and push if changed
         run: |
