@@ -29,7 +29,7 @@
 ## Template
 
 <details>
-<summary>数据结构</summary>
+<summary><strong>📁 数据结构</strong></summary>
 
 - [01--DSU.txt](https://github.com/Aeyone/aeyone-algorithm-note/tree/main/Template/数据结构/01--DSU.txt)
 - [02--普通莫队.txt](https://github.com/Aeyone/aeyone-algorithm-note/tree/main/Template/数据结构/02--普通莫队.txt)
