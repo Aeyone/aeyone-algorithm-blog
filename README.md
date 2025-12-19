@@ -2,34 +2,10 @@
 
 用于个人日常学习记录，主要维护模板和做题笔记
 
-## 目录
-
-	├── Problemset
-	│   ├── 基础算法
-	│   ├── 动态规划
-	│   ├── 数据结构
-	│   ├── 数学
-	│   ├── 图论
-	│   └── 字符串
-	├── src
-	│   ├── AtCoder
-	│   ├── Codeforces
-	│   ├── Debug
-	│   ├── NowCoder
-	│   ├── test
-	│   ├── Training
-	│   └── XCPC
-	├── Template
-	│   ├── 数据结构
-	│   ├── 数学
-	│   ├── 一些杂碎
-	│   └── 字符串
-	└── README.md
-
 <!-- TEMPLATE_START -->
 ## Template
 
-<details>
+<details open>
 <summary><strong>一些杂碎</strong></summary>
 
 - [01--main.txt](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Template/一些杂碎/01--main.txt)
@@ -39,14 +15,14 @@
 
 </details>
 
-<details>
+<details open>
 <summary><strong>字符串</strong></summary>
 
 - [01--kmp.txt](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Template/字符串/01--kmp.txt)
 
 </details>
 
-<details>
+<details open>
 <summary><strong>数学</strong></summary>
 
 - [01--快速幂.txt](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Template/数学/01--快速幂.txt)
@@ -58,7 +34,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary><strong>数据结构</strong></summary>
 
 - [01--DSU.txt](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Template/数据结构/01--DSU.txt)
@@ -76,40 +52,64 @@
 
 <!-- TEMPLATE_END -->
 
+<!--
+
+https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
+
+-->
+
 ## Problemset
 
 #### 基础算法
 
-| Problems | AC Code | Note |
-| -------- | ------- | ---- |
-|[CF1623C](https://codeforces.com/contest/1623/problem/C)|[code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Problemset/基础算法/二分/CF1623C.cpp)||
+|Difficulty| Problem | Note | Code |
+|----------| -------- | ---- | ---- |
+|cf*1600|[CF1623C](https://codeforces.com/contest/1623/problem/C)	|二分+一点DP思想|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/09.22/c.cpp)|
+|cf*1600|[CF1680C](https://codeforces.com/contest/1680/problem/C)	|二分 n*n优化至nlogn|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/09.23/b.cpp)|
+|cf*1700|[CF1343D](https://codeforces.com/contest/1343/problem/D)	|枚举+二分 需要动点脑子|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/10.22-10.24/1343D.cpp)|
+||
+|cf*1700|[CF1381A2](https://codeforces.com/contest/1381/problem/A2)	|双指针|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/10.27/1381A2.cpp)|
+|cf*1800|[CF1734D](https://codeforces.com/contest/1734/problem/D)	|高难度双指针|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/10.29/1734d.cpp)|
+|cf*1800|[CF1979D](https://codeforces.com/contest/1979/problem/D)	|双指针+贪心(假的*1800)|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.17/a.cpp)|
+|cf*1800|[CF1852B](https://codeforces.com/contest/1852/problem/B)	|双指针 细节要考虑清楚 洛谷评蓝 确实有点难度|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.19/a.cpp)|
+||
+|atc*100|[ABC433_B](https://atcoder.jp/contests/abc433/tasks/abc433_b)	|最基本的单调栈用法|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/AtCoder/abc433/b.cpp)|
+|cf*1800|[CF1845D](https://codeforces.com/contest/1845/problem/D)	|单调栈好题 有点挑战性|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.15/c.cpp)|
+||
+|cf*1800|[CF1801B](https://codeforces.com/contest/1801/problem/B)	|有趣贪心|[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.17/d.cpp)|
+
 
 #### 动态规划
 
-| Problems | AC Code | Note |
-| -------- | ------- | ---- |
-|[]()|[]()||
+|Difficulty| Problem | Note | Code |
+|----------| -------- | ---- | ---- |
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/10.12/a.cpp)|
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 数据结构
 
-| Problems | AC Code | Note |
-| -------- | ------- | ---- |
-|[]()|[]()||
+|Difficulty| Problem | Note | Code |
+|----------| -------- | ---- | ---- |
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 数学
 
-| Problems | AC Code | Note |
-| -------- | ------- | ---- |
-|[]()|[]()||
+|Difficulty| Problem | Note | Code |
+|----------| -------- | ---- | ---- |
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 图论
 
-| Problems | AC Code | Note |
-| -------- | ------- | ---- |
-|[]()|[]()||
+|Difficulty| Problem | Note | Code |
+|----------| -------- | ---- | ---- |
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 字符串
 
-| Problems | AC Code | Note |
-| -------- | ------- | ---- |
-|[]()|[]()||
+|Difficulty| Problem | Note | Code |
+|----------| -------- | ---- | ---- |
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
+||[]()||[Accept Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|

@@ -26,7 +26,7 @@ void solve() {
 		i64 cnt = 0;
 		if(a[i].first == 'x')
 			cnt += dp[i][0] * (a[i].second - 1);
-		elses
+		else
 			cnt += a[i].second;
 
 		if(b[i].first == 'x')

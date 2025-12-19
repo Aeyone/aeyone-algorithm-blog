@@ -12,7 +12,7 @@ for category in "$TEMPLATE_DIR"/*; do
 
     cname=$(basename "$category")
 
-    echo "<details>"
+    echo "<details open>"
     echo "<summary><strong>$cname</strong></summary>"
     echo
 
