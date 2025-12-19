@@ -18,7 +18,6 @@
 <details open>
 <summary><strong>字符串</strong></summary>
 
-- [01--kmp (副本).txt](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Template/字符串/01--kmp (副本).txt)
 - [01--kmp.txt](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/Template/字符串/01--kmp.txt)
 
 </details>
