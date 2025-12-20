@@ -4,7 +4,7 @@ using namespace std;
 using i64 = long long;
 const int mod = 998244353;
 
-void solve() {//不错的按位异或计数题
+void solve() {
 	int n;
 	cin >> n;
 	vector<i64> a(n + 1);
