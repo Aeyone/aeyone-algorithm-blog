@@ -7,21 +7,6 @@ using i64 = long long;
 #define INFLL 0x7f7f7f7f7f7f7f7fLL
 
 const int MOD = 998244353;
-string lltos(i64 num, int base, int siz){
-	if(num == 0){
-		return string(siz, '0');
-	}
-	string idx = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	string res;
-	while(num){
-		res += idx[num % base];
-		num /= base;
-	}
-	while(res.size() < siz){
-		res += '0';
-	}
-	return res;
-}
 
 void solve() {
 	int n;
