@@ -179,8 +179,6 @@ https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
 
 #### 字符串
 
-/home/aeyone/code/aeyone-algorithm-note/
-
 |Difficulty| Problem | Note | Code |
 |----------| -------- | ---- | ---- |
 |atc*1124|[Shift String](https://atcoder.jp/contests/abc430/tasks/abc430_e)|KMP板子+循环位移Trick|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.28/e.cpp)|
