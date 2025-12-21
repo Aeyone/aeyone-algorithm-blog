@@ -176,6 +176,8 @@ https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
 |atc*729|[Toggle Maze](https://atcoder.jp/contests/abc420/tasks/abc420_d)|分层最短路问题，考虑两种不同的状态|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.08/a.cpp)|
 |atc*932|[Domino Covering XOR](https://atcoder.jp/contests/abc407/tasks/abc407_d)|暴搜+状压|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/b.cpp)|
 |atc*1421|[Development](https://atcoder.jp/contests/abc416/tasks/abc416_e)|Floyd优化|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.16/d.cpp)|
+|unknown|[Knapsack Problem](https://qoj.ac/contest/2513/problem/14309)|最短路问题（Asia EC Online 2025 I）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/2025%20icpc%20online%20/I.cpp)|
+||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 ||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 字符串
