@@ -138,6 +138,7 @@ https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
 
 |Difficulty| Problem | Note | Code |
 |----------| -------- | ---- | ---- |
+|atc*1140|[Cubes](https://atcoder.jp/contests/abc397/tasks/abc397_d)|简单有趣的数学题+二分|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.24/A--abc397_d.cpp)|
 |atc*1271|[Count A%B=C](https://atcoder.jp/contests/abc414/tasks/abc414_e)|数论分块模板|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 |cf*1600|[Maximum Set](https://codeforces.com/contest/1796/problem/C)|数学|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/09.23/a.cpp)|
 |cf*1700|[Xenia and Colorful Gems](https://codeforces.com/contest/1336/problem/B)|数学|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/10.28/1336B.cpp)|
