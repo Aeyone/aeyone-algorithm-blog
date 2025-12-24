@@ -52,12 +52,6 @@
 
 <!-- TEMPLATE_END -->
 
-<!--
-
-https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
-
--->
-
 ## Problemset
 
 #### 基础算法
@@ -129,7 +123,7 @@ https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
 |atc*1385|[Random Gathering](https://atcoder.jp/contests/abc417/tasks/abc417_f)|线段树，区间重置操作，线段树上带取模操作|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/f.cpp)|
 |atc*1496|[Adding Chords](https://atcoder.jp/contests/abc424/tasks/abc424_f)|看似几何题，实际线段树，难点在于怎么用线段树|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.02/f.cpp)|
 |atc*1448|[Compare Tree Weights](https://atcoder.jp/contests/abc406/tasks/abc406_f)|dfn序上线段树|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.12/e.cpp)|
-|unknown|[Maximum Rating](https://codeforces.com/gym/104869/problem/K)|值域线段树（2023ICPC沈阳）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/icpc%20shenyang%202023/k.cpp)
+|unknown|[Maximum Rating](https://codeforces.com/gym/104869/problem/K)|值域线段树（2023ICPC沈阳区域赛）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/icpc%20shenyang%202023/k.cpp)
 |atc*1497|[Most Valuable Parentheses](https://atcoder.jp/contests/abc407/tasks/abc407_e)|线段树上维护括号的合法性|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/d.cpp)|
 |atc*1708|[Clearance](https://atcoder.jp/contests/abc426/tasks/abc426_f)|吉如一线段树（其实没必要）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.30/f.cpp)|
 ||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
@@ -147,7 +141,7 @@ https://github.com/Aeyone/aeyone-algorithm-note/blob/main/
 |atc*1536|[Closest Moment](https://atcoder.jp/contests/abc426/tasks/abc426_e)|计算几何+三分|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.30/e.cpp)|
 |atc*1559|[Colinear](https://atcoder.jp/contests/abc422/tasks/abc422_e)|平面几何，随机化|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.04/e.cpp)|
 |atc*unknown|[LCM Sequence](https://atcoder.jp/contests/abc412/tasks/abc412_e)|大质数判断板子题|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.16/c.cpp)|
-|unknown|[Coin](https://codeforces.com/gym/105588/problem/C)|间隔取数，求第k大的经典Trick，倒推|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/The%202024%20ICPC%20Asia%20Kunming%20Regional%20Contest/c1.cpp)|
+|unknown|[Coin](https://codeforces.com/gym/105588/problem/C)|间隔取数，求第k大的经典Trick，倒推（2024ICPC昆明区域赛）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/The%202024%20ICPC%20Asia%20Kunming%20Regional%20Contest/c1.cpp)|
 |cf*2100|[Removal of a Sequence (Hard Version)](https://codeforces.com/contest/2169/problem/D2)|同上，上面这个题目的升级版，一样是倒推的做法|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Codeforces/2169(edu)/D.cpp)|
 ||
 |atc*849|[XNOR Operation](https://atcoder.jp/contests/abc418/tasks/abc418_d)|计数题，双指针+贡献法，非常基础|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.08/d.cpp)|
