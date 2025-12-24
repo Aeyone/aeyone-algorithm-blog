@@ -72,6 +72,7 @@
 |atc*1001|[Least Unbalanced](https://atcoder.jp/contests/abc422/tasks/abc422_d)|构造题，类似于线段树的建树过程|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.04/d.cpp)|
 |cf*1600|[Matrix and Shifts](https://codeforces.com/contest/1660/problem/E)|循环位移经典trick|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.09/c.cpp)|
 |atc*1212|[Takahashi's Expectation](https://atcoder.jp/contests/abc417/tasks/abc417_d)|倍增，按值域分治（还有一种DP解法）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/a.cpp)|
+|atc*1216|[Reverse 2^i](https://atcoder.jp/contests/abc413/tasks/abc413_e)|一道很像线段树的题目，很巧妙的分治|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.24/B--abc413_e.cpp)|
 ||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 动态规划
@@ -103,6 +104,7 @@
 |unknown|[AVL tree](https://ac.nowcoder.com/acm/contest/108306/A)|树形DP+AVL树的性质（2025牛客暑期多校训练营9）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/NowCoder/2025牛客暑期多校训练营9/a.cpp)|
 |cf*1700|[Fake Plastic Trees](https://codeforces.com/contest/1693/problem/B)|树形DP，比较有趣的一个树上问题，把树分叉的性质与求和结合在一起，贪心|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/10.14/b.cpp)|
 |cf*2200|[Balanced Tree](https://codeforces.com/contest/2062/problem/D)|树形DP+贪心，需要有活跃的思维|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Codeforces/2062(d1+d2)/d.cpp)|
+|atc*1444|[Path Decomposition of a Tree](https://atcoder.jp/contests/abc397/tasks/abc397_e)|树形DP，条件转移维护可行性，简单|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.24/C--abc397_e.cpp)|
 ||
 |unknown|[Not a subset sum](https://qoj.ac/contest/2645/problem/15317)|状压DP，想到转移就很好做了（2025ICPC上海区域赛）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/The%202025%20ICPC%20Asia%20Shanghai%20Regional%20Contest/d.cpp)|
 |atc*1752|[Inserting Process](https://atcoder.jp/contests/abc425/tasks/abc425_f)|状压DP，和上题类似，难点在于处理相邻位置相同时的条件转移|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.02/c.cpp)|
@@ -163,19 +165,20 @@
 
 |Difficulty| Problem | Note | Code |
 |----------| -------- | ---- | ---- |
-|atc*1386|[Reflection on Grid](https://atcoder.jp/contests/abc431/tasks/abc431_e)|01-BFS应用题|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.28/b.cpp)|
 |atc*1588|[Back and Forth Filling](https://atcoder.jp/contests/abc430/tasks/abc430_f)|维护大小关系的拓扑排序建图Trick|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.28/f.cpp)|
 |cf*1700|[Link Cut Centroids](https://codeforces.com/contest/1406/problem/C)|树的重心|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.29/b.cpp)|
 |cf*1700|[Chat Screenshots](https://codeforces.com/contest/1931/problem/F)|拓扑序|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.29/e.cpp)|
 |atc*967|[The Simple Game](https://atcoder.jp/contests/abc427/tasks/abc427_d)|记忆化搜索|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.30/a.cpp)|
-|atc*1680|[Wind Cleaning](https://atcoder.jp/contests/abc427/tasks/abc427_e)|最短路问题，状态定义需要开六维，非常新颖|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.30/b.cpp)|
 |atc*729|[Toggle Maze](https://atcoder.jp/contests/abc420/tasks/abc420_d)|分层最短路问题，考虑两种不同的状态|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.08/a.cpp)|
+|atc*1592|[No Passage](https://atcoder.jp/contests/abc413/tasks/abc413_f)|次短路，有趣的博弈题，好玩|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.24/D--abc413_f.cpp)|
 |atc*932|[Domino Covering XOR](https://atcoder.jp/contests/abc407/tasks/abc407_d)|暴搜+状压|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/b.cpp)|
 |atc*1421|[Development](https://atcoder.jp/contests/abc416/tasks/abc416_e)|Floyd优化|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.16/d.cpp)|
 |unknown|[Knapsack Problem](https://qoj.ac/contest/2513/problem/14309)|最短路问题（Asia EC Online 2025 I）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/2025%20icpc%20online%20/I.cpp)|
 |atc*1960|[Replace](https://atcoder.jp/contests/abc399/tasks/abc399_e)|基环树，思维题|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.22/abc399_e.cpp)|
 |atc*1014|[Takahashi the Wall Breaker](https://atcoder.jp/contests/abc400/tasks/abc400_d)|01-BFS/dijkstra|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.22/abc400_d.cpp)|
+|atc*1386|[Reflection on Grid](https://atcoder.jp/contests/abc431/tasks/abc431_e)|01-BFS应用题|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.28/b.cpp)|
 |cf*1800|[Rendez-vous de Marian et Robin](https://codeforces.com/contest/2014/problem/E)|分层图Dijkstra好题|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.23/D--2014E.cpp)|
+|atc*1680|[Wind Cleaning](https://atcoder.jp/contests/abc427/tasks/abc427_e)|最短路问题，状态定义需要开六维，非常新颖|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.30/b.cpp)|
 |cf*1800|[A Wide, Wide Graph](https://codeforces.com/contest/1805/problem/D)|求树上每个节点的最远距离，做的时候不知道的一个结论：树上任意一点，离他最远的点一定是直径两端的点之一。|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.23/C--1805D.cpp)|
 ||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
