@@ -125,6 +125,7 @@
 |atc*1385|[Random Gathering](https://atcoder.jp/contests/abc417/tasks/abc417_f)|线段树，区间重置操作，线段树上带取模操作|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/f.cpp)|
 |atc*1496|[Adding Chords](https://atcoder.jp/contests/abc424/tasks/abc424_f)|看似几何题，实际线段树，难点在于怎么用线段树|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.02/f.cpp)|
 |atc*1448|[Compare Tree Weights](https://atcoder.jp/contests/abc406/tasks/abc406_f)|dfn序上线段树|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.12/e.cpp)|
+|atc*1702|[Variety Split Hard](https://atcoder.jp/contests/abc397/tasks/abc397_f)|线段树维护差分最大值+数组分成三段Trick|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.24/E--abc397_f.cpp)|
 |unknown|[Maximum Rating](https://codeforces.com/gym/104869/problem/K)|值域线段树（2023ICPC沈阳区域赛）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/icpc%20shenyang%202023/k.cpp)
 |atc*1497|[Most Valuable Parentheses](https://atcoder.jp/contests/abc407/tasks/abc407_e)|线段树上维护括号的合法性|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/d.cpp)|
 |atc*1708|[Clearance](https://atcoder.jp/contests/abc426/tasks/abc426_f)|吉如一线段树（其实没必要）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/11.30/f.cpp)|
@@ -159,6 +160,7 @@
 |atc*1347|[Popcount Sum 3](https://atcoder.jp/contests/abc406/tasks/abc406_e)|计数题，拆位+组合数学，难点在于保证计数不重不漏|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.12/c.cpp)|
 |cf*1800|[Shohag Loves XOR (Hard Version) ](https://codeforces.com/contest/2039/problem/C2)|计数题，XOR+数学知识（整除一定至少为2倍）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.19/c.cpp)|
 |atc*1692|[Sums of Sliding Window Maximum](https://atcoder.jp/contests/abc407/tasks/abc407_f)|计数题，非常重量级，ST表+二分or单调栈+二重差分，难点在于存在相同的数字，如何不重不漏地统计所有情况，是一个经典Trick|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.10/e.cpp)|
+||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 
 #### 图论
