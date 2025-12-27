@@ -13,7 +13,13 @@ using u128 = unsigned __int128;
 const int MOD = 998244353;
 
 void solve() {
-
+	string s;
+	cin >> s;
+	if (count(s.begin(), s.end(), 'Y') > 1) {
+		cout << "NO" << '\n';
+	} else {
+		cout << "YES" << '\n';
+	}
 }
 
 signed main() {

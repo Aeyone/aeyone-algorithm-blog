@@ -13,7 +13,21 @@ using u128 = unsigned __int128;
 const int MOD = 998244353;
 
 void solve() {
-
+	string s;
+	cin >> s;
+	int n = s.size();
+	int ans = (s[0] == 'u');
+	for (int l = 1, r = 1; l < n; l = r) {
+		while (r < n && s[l] == s[r]) {
+			r ++;
+		}
+		if(s[l] == 's') {
+			continue;
+		}
+		ans += (r - l) / 2;
+		ans += (r == n && (r - l) & 1);
+	}
+	cout << ans << '\n';
 }
 
 signed main() {
