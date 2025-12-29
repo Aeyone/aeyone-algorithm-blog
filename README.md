@@ -111,6 +111,7 @@
 |atc*1752|[Inserting Process](https://atcoder.jp/contests/abc425/tasks/abc425_f)|状压DP，和上题类似，难点在于处理相邻位置相同时的条件转移|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.02/c.cpp)|
 |atc*1229|[2x2 Erasing 2](https://atcoder.jp/contests/abc424/tasks/abc424_d)|简单状压DP|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.02/d.cpp)|
 |unknown|[Light Up the Grid](https://codeforces.com/gym/105578/problem/E)|Floyd+状压DP（2024ICPC沈阳区域赛）|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/XCPC/The%202024%20ICPC%20Asia%20Shenyang%20Regional%20Contest/e.cpp)|
+|cf*1800|[Missing Subsequence Sum](https://codeforces.com/contest/1965/problem/B)|构造题，利用背包DP维护状态，很巧妙，贪心解不是很懂|[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/src/Training/12.26/B--1965B.cpp)|
 ||[]()||[Code](https://github.com/Aeyone/aeyone-algorithm-note/blob/main/)|
 
 #### 数据结构
