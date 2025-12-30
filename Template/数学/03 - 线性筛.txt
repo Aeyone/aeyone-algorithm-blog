@@ -9,7 +9,7 @@ void sieve(int n) {
             p.push_back(i);
         }
         for (auto e : p) {
-            if (i * e > n) {
+            if (1ll * i * e > n) {
                 break;
             }
             minp[i * e] = e;
